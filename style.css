@@ -45,13 +45,13 @@ li {
 }
 
 a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
 a:hover {
-	color: #c7c7cc;
+	color: #b8b8c6;
 }
 
 main {
@@ -64,19 +64,49 @@ h2 {
 	margin-bottom: 10px;
 }
 
+ol {
+	list-style-type: none;
+}
+
+#blogs li a {
+	color: black;
+}
+
+#blogs li a:hover {
+	color: #707081;
+}
+
+#tutorials li a {
+	color: black;
+}
+
+#tutorials li a:hover {
+	color: #707081;
+}
+
 p {
 	margin: 0;
 	padding: 0 0 10px;
 }
 
 footer {
-	background-color: #ebebf5;
+	background-color: #333;
 	padding: 20px;
 	text-align: center;
 }
 
 footer p {
-	color: #999;
+	color: #efebeb;
 	font-size: 14px;
 	margin: 0;
+}
+
+footer .social-icons {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+footer a {
+	text-transform: none;
 }
