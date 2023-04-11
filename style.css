@@ -84,9 +84,20 @@ ol {
 	color: #707081;
 }
 
+.genaiandassessment ul li {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
 p {
 	margin: 0;
 	padding: 0 0 10px;
+	text-transform: none;
+}
+
+p a {
+	text-transform: lowercase;
+	color: inherit;
 }
 
 footer {
