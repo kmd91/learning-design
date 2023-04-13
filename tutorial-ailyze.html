@@ -9,6 +9,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
+	<script src="/js/iframeResizer.min.js"></script>
 </head>
 <body>
 	<!-- Add a header section with a logo or website name -->
@@ -30,7 +31,14 @@
 	</nav>
 	<!-- Add a main content section with some sample text -->
 	<main>
-		<iframe width="760px" height="500px" src="https://sway.office.com/s/Il5yWnCC9AVtG0cf/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+		<iframe id="myIframe" src="https://sway.office.com/s/Il5yWnCC9AVtG0cf/embed"></iframe>
+		<script>
+			iFrameResize({
+			  log: true,
+			  checkOrigin: false,
+			  heightCalculationMethod: 'taggedElement'
+			}, '#myIframe');
+		</script>
 	</main>
 		<!-- Add a footer section with some contact information -->
 	<footer>
