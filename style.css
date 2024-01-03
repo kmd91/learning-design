@@ -89,6 +89,14 @@ ol {
 	margin-left: 20px;
 }
 
+#projects li a {
+	color: black;
+}
+
+#projects li a:hover {
+	color: #707081;
+}
+
 p {
 	margin: 0;
 	padding: 0 0 10px;
